@@ -5,7 +5,4 @@ The COPYRIGHT file at the top level of this repository contains the full copyrig
     <xpath expr="/tree/field[@name='untaxed_amount']" position="replace_attributes">
         <field name="untaxed_amount" sum="Untaxed Amount"/>
     </xpath>
-    <xpath expr="/tree/field[@name='total_amount']" position="replace_attributes">
-        <field name="total_amount" sum="Total Amount"/>
-    </xpath>
 </data>
